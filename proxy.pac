@@ -10,6 +10,7 @@ function FindProxyForURL(url, host) {
         "*.smd.msft.net",
         "login.live.com",
         "login.microsoftonline.com",
+        "*.githubusercontent.com",
     ];
     function isInDirectHosts(host) {
         for (var i = 0; i < directHosts.length; i++) {
